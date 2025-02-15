@@ -1,3 +1,3 @@
 function showDateTime() {
-  document.getElementByID('demo').innerHTML = new Date().toLocaleString();
+  document.getElementById('demo').innerHTML = new Date().toLocaleString();
 }
