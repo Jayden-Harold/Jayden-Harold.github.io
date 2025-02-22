@@ -6,27 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COMS3009A - Software Design</title>
 </head>
-<body>
-    <h1 style="text-align:center;">Lab 1</h1>
-    <p>This lab aims to ensure students know how to use Git to manage code collaboration and familiarise them 
-    with Github. Students must create a repository on GitHub, clone the repo, make changes and deploy them
-    using GitHub pages.</p>
-    <h2 style="text-align:center;">JavaScript</h2>
-    <button type="button" onclick="showDateTime()">Click me to display Date and Time</button>
-    <p id="demo"></p>
-    <script src="script.js"></script>
-    <h3 style="text-align:center;">Enter your details</h3>
-    <form id="welcomeForm">
-        <label for="name">Name:</label>
-        <input type="text" id="name" required>
-        <br>
-        <br>
-        <label for="surname">Surname:</label>
-        <input type="text" id="surname" required>
-        <br>
-        <button type="submit">Submit</button>
-    </form>
-    <h2 id="welcomeMessage"></h2>
-    <script src="script2.js"></script>
-</body>
+<nav id="main-navigation">
+    <ul>
+        <li><a href="#div-alternatives-1">7 Alternatives to the div HTML Tag</a></li>
+        <li><a href="#html-cheat-sheet">HTML Cheat Sheet</a></li>
+    </ul>
+</nav>
+<main role="main">
+    <h1>Lab 2: HTML & CSS</h1>
+    <p>This lab is aimed at ensuring that students understand the makeup of the visual aspects of a web page by focusing on basic HTML and CSS. 
+        The students will be required to build a simple webpage using HTML and CSS. To highlight the importance of using semantic markup (the appropriate HTML tags), 
+        the students are required to only use semantic markup. The students are also encouraged to use CSS Flexbox.</p>
+<section id="div-alternatives-1">
+    <h1>7 Alternatives to the div HTML Tag</h1>
+    <p>You can find the link to this article <a href="https://medium.com/@zac_heisey/7-alternatives-to-the-div-html-tag-7c888c7b5036">here.</a></p>
+</section>
+<section id="html-cheat-sheet">
+    <h1>HTML Cheat Sheet</h1>
+    <p>For great HTML tips, click <a href="https://www.geeksforgeeks.org/html-cheat-sheet/">here.</a></p>
+    <aside id="resources">
+        <h2>Resources</h2>
+        <li>Intro to Web Dev (HTML & CSS)</li>
+        <li>What is semantic markup?</li>
+        <li>HTML tags reference</li>
+        <li>CSS Flex</li>
+    </aside>
+</section>
+<article class="my-article">
+    <header>
+        <h2>Why Use div Alternatives?</h2>
+        <p>According to the W3C</p>
+    </header>
+    <p>The div element has no special meaning at all…Authors are strongly encouraged to view the div element as an element of last resort,
+        for when no other element is suitable. Use of more appropriate elements instead of the div element leads to better accessibility for readers and easier maintainability for authors.</p>
+</article>
+<blockquote>
+    "Don't use div"
+</blockquote>
+<cite>-Lucky</cite>
+</main>
+<footer>
+    <p>© Jayden Harold. 2025. All rights reserved.</p>
+</footer>
 </html>
